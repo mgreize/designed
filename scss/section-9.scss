@@ -1,0 +1,24 @@
+.section-9 {
+  padding: 40px 0;
+  background: #1c1c1c;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  .imgs {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  p {
+    color: white;
+    opacity: 0.5;
+  }
+
+  a {
+    color: #e27866;
+    text-decoration: none;
+  }
+}

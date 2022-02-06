@@ -1,0 +1,83 @@
+.section-8 {
+  padding: 60px 0;
+  background: #e27866;
+  font-family: Montserrat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  h2 {
+    width: 100%;
+    margin-top: 40px;
+    text-align: center;
+    color: white;
+    font-size: 36px;
+  }
+  p {
+    margin: 30px 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+  }
+
+  .s2 {
+    background: white;
+    width: 400px;
+    height: 320px;
+    text-align: center;
+
+    .i1,
+    .i2,
+    .i3 {
+      width: 80%;
+      margin: 0 40px;
+      padding-top: 30px;
+      border: none;
+      border-bottom: 1px solid #d8d8d8;
+    }
+
+    .r1,
+    .r2 {
+      margin-left: 40px;
+      margin-top: 20px;
+    }
+
+    label {
+      font-size: 12px;
+    }
+
+    button {
+      width: 40%;
+      border: none;
+      height: 57px;
+      margin-top: 48px;
+      background: #41d395;
+      color: white;
+      font-size: 18px;
+    }
+  }
+  .r1,
+  .r2 {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+    width: 16px;
+    height: 16px;
+
+    border: 1px solid #41d395;
+    border-radius: 100%;
+    transition: 0.2s all linear;
+    margin-right: 5px;
+
+    position: relative;
+    top: 4px;
+  }
+
+  input:checked {
+    background: #41d395;
+    border: 2px solid black;
+  }
+}
